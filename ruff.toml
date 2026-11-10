@@ -1,0 +1,9 @@
+line-length = 100
+src = ["apps/api/src", "apps/api/tests", "evals"]
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[lint.isort]
+known-first-party = ["research_assistant"]

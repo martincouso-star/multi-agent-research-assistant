@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rag-definition",
+    "question": "What is retrieval-augmented generation and why do teams use it?",
+    "expected_topics": ["retriever", "generator", "ground", "hallucination"],
+    "min_citations": 2,
+    "min_score": 0.8
+  },
+  {
+    "id": "langgraph-vs-prompt",
+    "question": "How does LangGraph coordinate multiple agents compared with a single prompt?",
+    "expected_topics": ["state", "nodes", "graph", "control"],
+    "min_citations": 2,
+    "min_score": 0.8
+  },
+  {
+    "id": "sse-streaming",
+    "question": "When should a research API stream progress with server-sent events?",
+    "expected_topics": ["stream", "event", "client", "progress"],
+    "min_citations": 2,
+    "min_score": 0.8
+  },
+  {
+    "id": "citation-limits",
+    "question": "What are practical limits of citing sources in an automated research brief?",
+    "expected_topics": ["citation", "claim", "source", "coverage"],
+    "min_citations": 2,
+    "min_score": 0.8
+  }
+]
